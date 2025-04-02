@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Tea Chair</title>
+  <meta name="description" content="Tea Chair" />
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="icon" type="image/png" sizes="192x192" href="./icon-192x192.png" />
+  <link rel="apple-touch-icon" href="./icon-192x192.png" />
+  <link rel="preload" as="image" href="./icon-192x192.png" />
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <style>
+    #splash-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+      transition: opacity 0.3s ease-out;
+    }
+
+    #splash-screen img {
+      width: 96px;
+      height: 96px;
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+        opacity: 1;
+      }
+      50% {
+        transform: scale(0.95);
+        opacity: 0.8;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+  </style>
+  <script type="module" crossorigin src="./assets/index-D1Lz3lHZ.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/vendor-Dx1oOFQq.js">
+  <link rel="modulepreload" crossorigin href="./assets/auth-CeZCLaql.js">
+  <link rel="modulepreload" crossorigin href="./assets/main-C5h9Ki9z.js">
+  <link rel="modulepreload" crossorigin href="./assets/dowork-UJV2df5b.js">
+  <link rel="stylesheet" crossorigin href="./assets/index-NuzLvW8b.css">
+</head>
+
+<body>
+  <div id="root">
+    <div id="splash-screen">
+      <img src="./icon-192x192.png" alt="Tea Chair" />
+    </div>
+  </div>
+  <script>
+    // Hide splash screen when the app is loaded
+    window.addEventListener('load', () => {
+      const splashScreen = document.getElementById('splash-screen');
+      if (splashScreen) {
+        splashScreen.remove();
+      }
+    });
+  </script>
+</body>
+
+</html>
