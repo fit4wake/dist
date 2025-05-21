@@ -451,7 +451,8 @@
       "pause": "Pause",
       "upload": "Upload Audio",
       "dragAndDrop": "Drag and drop an audio file here, or click to select",
-      "uploadError": "Failed to upload audio. Please try again."
+      "uploadError": "Failed to upload audio. Please try again.",
+      "add": "Add Audio"
     },
     "iframe": {
       "title": "External Content",
