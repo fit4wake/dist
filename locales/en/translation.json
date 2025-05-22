@@ -1,7 +1,8 @@
 {
+  "currentLanguage": "English",
   "langs": {
     "english": "English",
-    "russian": "Russian"
+    "russian": "Русский"
   },
   "home": {
     "welcome": "Welcome, {{name}}!",
@@ -237,7 +238,8 @@
     "folders": {
       "root": "Root (No Folder)",
       "loading": "Loading folders...",
-      "error": "Error loading folders"
+      "error": "Error loading folders",
+      "select": "Select"
     },
     "hint": {
       "createFirst": "Start by creating a template",
@@ -301,11 +303,12 @@
     "editor": {
       "tooltips": {
         "element": "Element",
-        "dragAndDrop": "Drag-n-drop to copy, Click to open menu",
+        "dragAndDrop": "Drag-n-drop to move, Click - to open menu",
         "delete": "Delete",
         "convertToText": "Convert to regular text",
         "showHint": "Show hint",
-        "hideHint": "Hide hint"
+        "hideHint": "Hide hint",
+        "duplicate": "Duplicate"
       },
       "actions": {
         "delete": "Delete",
@@ -321,7 +324,13 @@
     },
     "draggableAnswers": {
       "title": "Draggable Answers",
-      "hint": "Panel with randomly shuffled answers that students can drag and drop to a 'Hidden Text' field. You can pin the panel to make it visible while scrolling the page."
+      "hint": "Panel with randomly shuffled answers that students can drag and drop to a 'Hidden Text' field. You can pin the panel to make it visible while scrolling the page.",
+      "pin": "Pin panel",
+      "unpin": "Unpin panel",
+      "order": "Order answers",
+      "shuffle": "Shuffle answers",
+      "addAlt": "Add alternatives options",
+      "willBeDraggable": "Will be Draggable for students"
     },
     "multipleChoice": {
       "title": "Multiple Choice",
@@ -491,7 +500,8 @@
         "imageProcessing": "Error processing image",
         "imageURLProcessing": "Error processing image URL",
         "noTextRecognized": "No text recognized from image"
-      }
+      },
+      "rollback": "Rollback changes"
     },
     "title": {
       "label": "Title",
