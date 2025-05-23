@@ -1,5 +1,7 @@
 {
   "currentLanguage": "English",
+  "locale": "en",
+  "dateFormat": "MM/DD/YYYY",
   "langs": {
     "english": "English",
     "russian": "Русский"
@@ -193,7 +195,6 @@
       "byTeacher": "Created by teacher",
       "byStudent": "Created for student",
       "forStudent": "Work for",
-      "forTeacher": "Created for student",
       "selectStudent": "Select a student",
       "templateHint": "This work will be created as a Template",
       "studentHint": "This work will be created and sent to the Student",
@@ -297,6 +298,14 @@
     "validation": {
       "titleLength": "Title must be at most 100 characters",
       "descriptionLength": "Description must be at most 1000 characters"
+    },
+    "status": {
+      "templateCreated": "Template created successfully",
+      "folderCreated": "Folder created successfully",
+      "templateMoved": "Template moved successfully",
+      "folderMoved": "Folder moved successfully",
+      "templateDeleted": "Template deleted successfully",
+      "folderDeleted": "Folder deleted successfully"
     }
   },
   "components": {
@@ -453,7 +462,18 @@
         "dragAndDrop": "Drag and drop an image here, or click to select",
         "uploadError": "Failed to upload image. Please try again.",
         "supports": "Supports: JPG, PNG, GIF",
-        "add": "Add Image"
+        "add": "Add Image",
+        "selectFromGallery": "Select from Gallery",
+        "loadError": "Failed to load images",
+        "insertError": "Failed to insert image",
+        "moreImages": "More..."
+      },
+      "recentImages": "Recent Images",
+      "gallery": {
+        "title": "Image Gallery",
+        "noImages": "No images found",
+        "loadMore": "Loading more images...",
+        "lastModified": "Last modified: {{date}}"
       }
     },
     "audio": {
@@ -616,7 +636,10 @@
       "pending": "Pending",
       "agreed": "Agreed",
       "rejected": "Rejected",
-      "archived": "Archived"
+      "archived": "Archived",
+      "contractCreated": "Contract created successfully. Please invite the student to the bot.",
+      "errorCreating": "Failed to save contract. Please try again.",
+      "statusUpdated": "Contract status updated"
     },
     "form": {
       "studentUsername": "Student Username",
@@ -629,6 +652,12 @@
       "currentBalance": "Current balance",
       "description": "Description",
       "descriptionHint": "Visible for the student"
+    },
+    "card": {
+      "paidLessons": "Lessons",
+      "pricePerLesson": "Price",
+      "withTeacher": "Teacher",
+      "withStudent": "Student"
     },
     "dialog": {
       "existingContract": {
@@ -645,8 +674,6 @@
       },
       "details": {
         "title": "Contract Details",
-        "withTeacher": "With Teacher",
-        "withStudent": "With Student",
         "paidLessons": "Paid lessons",
         "pricePerLesson": "Price per lesson",
         "description": "Description",
@@ -845,8 +872,8 @@
     "input": {
       "placeholder": "Write a comment...",
       "notify": {
-        "student": "Notify {{name}} in Telegram",
-        "teacher": "Notify {{name}} in Telegram"
+        "student": "Notify {{name}} via Telegram",
+        "teacher": "Notify {{name}} via Telegram"
       }
     },
     "actions": {
@@ -858,13 +885,17 @@
       "save": "Save",
       "cancel": "Cancel"
     },
-    "replyTo": "Reply to {{name}}",
     "dialog": {
       "delete": {
         "title": "Delete Comment",
-        "message": "Are you sure you want to delete this comment? This action cannot be undone."
+        "message": "Are you sure you want to delete this comment?"
       }
-    }
+    },
+    "replyTo": "Replying to {{name}}",
+    "created": "Comment added successfully",
+    "updated": "Comment updated successfully",
+    "deleted": "Comment deleted successfully",
+    "createdAndNotified": "Comment added successfully. Notification sent to Telegram"
   },
   "folders": {
     "status": {
@@ -967,5 +998,27 @@
     "contentArea": {
       "editableMarkdown": "editable markdown"
     }
+  },
+  "comment": {
+    "status": {
+      "open": "open",
+      "done": "done"
+    },
+    "color": "Color",
+    "colors": {
+      "info": "info",
+      "error": "error",
+      "success": "success"
+    },
+    "messages": "Messages",
+    "error": {
+      "selectText": "Please select some text to comment first"
+    },
+    "insert": {
+      "tooltip": "Add inline comment"
+    }
+  },
+  "language": {
+    "title": "Language"
   }
 }
