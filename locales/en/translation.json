@@ -384,38 +384,45 @@
     "enterTitle": "Enter task title to search"
   },
   "onboarding": {
-    "intro": "Let's discover the platform! You can skip any step and come back later or you can skip the onboarding and discover the platform on your own or watch the video.",
+    "sharedTaskKey": "onboarding-ru",
+    "intro": "Let's get familiar with the platform. You can skip any step and come back to it later, or completely skip the tutorial and explore the platform on your own",
     "steps": {
-      "inviteStudents": {
-        "title": "Invite Students",
-        "description": "Create a contract with a student.",
-        "hint": "You can invite as many students as you want. Please find all your students in the \"Students\" section.",
-        "action": "Create Contract"
-      },
-      "manageBalance": {
-        "title": "Manage Students balance",
-        "description": "Add lessons on the Student's balance (optional).",
-        "hint": "You can add / use lessons on the Student's balance to deal with accounting. Please find all transactions in the \"Transactions\" section.",
-        "action": "Top up balance"
-      },
       "createTasks": {
-        "title": "Create Tasks",
-        "description": "Create Tasks to include in a Work",
-        "hint": "You can create as many tasks as you want. Task may be included in a Work for a Student. Please find all tasks in the \"Tasks\" section.",
+        "title": "Create a Task",
+        "description": "Try how easy it is to create tasks",
+        "hint": "You can create as many tasks as you want and group them by tags. Tags can be created directly in the task",
         "action": "Create Task"
       },
+      "createTemplate": {
+        "title": "Create a Work Template",
+        "description": "Try creating a template from multiple tasks",
+        "hint": "You can add an existing task that we created in the first step to the template, or create a new task that will be immediately added to the template",
+        "action": "Create Template"
+      },
+      "inviteStudents": {
+        "title": "Invite a Student",
+        "description": "Create a contract with a student",
+        "hint": "You can invite as many students as you want. For each student, you will see a separate contract with terms and interaction history",
+        "action": "Create Contract"
+      },
       "assignWorks": {
-        "title": "Assign Works to Students",
-        "description": "Create Works for your Students or assign existing Template",
-        "hint": "You can create Works and send it to your Student or create Template for future assignments. Works consist of Tasks created in the previous step. Please find all works in the \"Works\" section.",
+        "title": "Assign Works to Student",
+        "description": "Assign works to a student using the created template",
+        "hint": "You will go to the Templates section, click the \"Assign\" button on the template card and select a student. You can modify the template work for each student",
         "action": "Assign Work"
+      },
+      "manageBalance": {
+        "title": "Manage Student Balance",
+        "description": "Add lessons to student balance",
+        "hint": "You can add/deduct lessons from the student's balance for transparent accounting. You and students can find all operations in the \"Transactions\" section.",
+        "action": "Top Up Balance"
       }
     },
     "actions": {
       "skip": "Skip",
-      "skipOnboarding": "Skip onboarding",
+      "skipOnboarding": "Skip Tutorial",
       "watchVideo": "Watch Video",
-      "startPlatform": "Start using the platform"
+      "startPlatform": "Start Using Platform"
     },
     "status": {
       "skipped": "Skipped"
