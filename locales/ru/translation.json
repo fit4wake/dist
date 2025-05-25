@@ -29,6 +29,9 @@
     },
     "users": {
       "title": "Пользователи"
+    },
+    "templates": {
+      "title": "Шаблоны"
     }
   },
   "common": {
@@ -422,7 +425,7 @@
       "skip": "Пропустить",
       "skipOnboarding": "Пропустить обучение",
       "watchVideo": "Смотреть видео",
-      "startPlatform": "Начать использовать платформу"
+      "startPlatform": "Начать работу"
     },
     "status": {
       "skipped": "Пропущено"
