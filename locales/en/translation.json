@@ -1,0 +1,1042 @@
+{
+  "currentLanguage": "English",
+  "locale": "en",
+  "dateFormat": "MM/DD/YYYY",
+  "langs": {
+    "english": "English",
+    "russian": "Русский"
+  },
+  "home": {
+    "welcome": "Welcome, {{name}}!",
+    "settings": "Settings",
+    "contracts": {
+      "title": "Contracts"
+    },
+    "students": {
+      "title": "Students"
+    },
+    "teachers": {
+      "title": "Teachers"
+    },
+    "works": {
+      "title": "Works"
+    },
+    "tasks": {
+      "title": "Tasks"
+    },
+    "tags": {
+      "title": "Tags"
+    },
+    "users": {
+      "title": "Users"
+    },
+    "templates": {
+      "title": "Templates"
+    },
+    "switch": {
+      "toTeacher": "Request Access",
+      "cancel": "Hide",
+      "processing": "Request processing"
+    },
+    "upgrade": {
+      "description": "Your motivation (Optional)",
+      "title": "Request Teacher Access",
+      "requestSent": "Request sent, please wait for confirmation",
+      "tileText": "Teacher Access"
+    }
+  },
+  "common": {
+    "language": "Language",
+    "loading": "Loading...",
+    "error": "Error occurred",
+    "optional": "Optional",
+    "student": {
+      "one": "Student",
+      "many": "Students"
+    },
+    "teacher": {
+      "one": "Teacher",
+      "many": "Teachers"
+    },
+    "actions": {
+      "save": "Save",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "edit": "Edit",
+      "create": "Create",
+      "update": "Update",
+      "skip": "Skip",
+      "preview": "Preview",
+      "clear": "Clear Filters",
+      "retry": "Retry",
+      "close": "Close",
+      "open": "Open",
+      "select": "Select",
+      "copy": "Copy",
+      "export": "Export (.docx)",
+      "actions": "Actions",
+      "restore": "Restore",
+      "tryAgain": "Try again",
+      "share": "Share",
+      "copyLink": "Copy link",
+      "checkAnswers": "Check Answers",
+      "showAnswer": "Show Answer",
+      "help": "Help",
+      "back": "Back",
+      "next": "Next",
+      "yes": "Yes, Cancel",
+      "no": "No, Continue",
+      "done": "Done",
+      "change": "Change",
+      "remove": "Remove from work",
+      "add": "Add to work",
+      "rename": "Rename",
+      "moveTo": "Move to...",
+      "send": "Send",
+      "hide": "Hide"
+    },
+    "dialog": {
+      "delete": {
+        "title": "Delete {{item}}",
+        "message": "Are you sure you want to delete \"{{name}}\"? This action cannot be undone.",
+        "messageBulk": "Are you sure you want to delete {{count}} selected {{item}}? This action cannot be undone."
+      },
+      "preview": {
+        "title": "Task Preview",
+        "size": {
+          "mobile": "mobile size",
+          "desktop": "desktop size"
+        }
+      },
+      "cancel": {
+        "title": "Cancel Work Creation?",
+        "message": "Are you sure you want to cancel? All your progress will be lost."
+      }
+    },
+    "status": {
+      "deleting": "Deleting...",
+      "saving": "Saving...",
+      "loading": "Loading...",
+      "linkCopied": "Link copied to clipboard!"
+    }
+  },
+  "auth": {
+    "welcome": "Welcome to Teachair!",
+    "authorization": "Authorization...",
+    "error": {
+      "oops": "Oops! {{error}}",
+      "openInBot": "Please open the application from the Telegram Bot for the best experience.",
+      "browserAuth": "If you prefer to work in a browser, you can use authorization via widget:"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "works": "Works",
+    "tasks": "Tasks",
+    "templates": "Templates",
+    "tags": "Tags",
+    "users": "Users",
+    "transactions": "Transactions",
+    "contracts": "Contracts",
+    "students": {
+      "one": "Student",
+      "other": "Students"
+    },
+    "teachers": "Teachers",
+    "more": "More",
+    "menu": {
+      "show": "Show menu",
+      "hide": "Hide menu"
+    }
+  },
+  "tasks": {
+    "title": "Tasks",
+    "empty": {
+      "teacher": "You haven't created any tasks yet",
+      "student": "No tasks available",
+      "noMatch": "No tasks match your search criteria"
+    },
+    "actions": {
+      "createFirst": "Create your first task",
+      "clearFilters": "Clear filters",
+      "createTask": "Create Task",
+      "filterByTags": "Filter by tags",
+      "searchByTitle": "Search by title"
+    },
+    "selection": {
+      "selected": "{{count}} selected",
+      "deleteCount": "Delete {{count}}"
+    }
+  },
+  "works": {
+    "title": "Works",
+    "empty": {
+      "teacher": "You haven't assigned any works yet",
+      "student": "You don't have any assigned works",
+      "noMatch": "No works match your filter criteria",
+      "noTasks": "No tasks selected"
+    },
+    "hint": {
+      "teacher": "Start by assigning work to your students",
+      "student": "Your teacher will assign work to you",
+      "adjust": "Try adjusting your filters to find what you're looking for"
+    },
+    "actions": {
+      "create": "Create Work",
+      "assign": "Assign Work",
+      "copy": "Copy Work",
+      "edit": "Edit Work",
+      "assignFirst": "Assign your first work",
+      "continue": "Continue",
+      "start": "Start Work",
+      "shareFeedback": "Share Feedback",
+      "actions": "Actions",
+      "deleting": "Deleting...",
+      "delete": "Delete",
+      "open": "Open"
+    },
+    "tabs": {
+      "step1": {
+        "create": "Create Work",
+        "edit": "Edit Work",
+        "copy": "Copy Work"
+      },
+      "step2": "Manage Tasks"
+    },
+    "progress": {
+      "title": "Progress",
+      "complete": "{{done}} of {{total}} complete"
+    },
+    "creator": {
+      "byTeacher": "Created by teacher",
+      "byStudent": "Created for student",
+      "forStudent": "Work for",
+      "selectStudent": "Select a student",
+      "templateHint": "This work will be created as a Template",
+      "studentHint": "This work will be created and sent to the Student",
+      "redeemLesson": "Redeem Lesson",
+      "availableLessons": "{{count}} lessons available now",
+      "noLessonsAvailable": "No lessons available in the active contract",
+      "noActiveContract": "No active contract found for this student",
+      "autoSaveHint": "Work will be saved automatically",
+      "addExistingTask": "Add Existing Task",
+      "enterWorkName": "Enter a work name",
+      "sendToStudent": "Send to Student",
+      "addTasks": "Add Tasks"
+    },
+    "status": {
+      "completed": "Completed",
+      "inProgress": "In Progress",
+      "notStarted": "Not Started"
+    },
+    "filters": {
+      "allStudents": "All Students",
+      "allTeachers": "All Teachers",
+      "clear": "Clear Filters",
+      "all": "All"
+    },
+    "delete": {
+      "title": "Delete Work",
+      "confirmation": "Are you sure you want to delete this work? This action cannot be undone.",
+      "inProgress": "Deleting...",
+      "confirm": "Delete"
+    },
+    "rating": "{{value}}"
+  },
+  "templates": {
+    "title": "Templates",
+    "titleSingle": "Template",
+    "empty": {
+      "noFolder": "You don't have any templates without folder",
+      "noTemplates": "You haven't created any templates yet",
+      "noMatch": "No templates match your filter criteria",
+      "noTemplatesInFolder": "You don't have any templates in this folder"
+    },
+    "folders": {
+      "root": "Root (No Folder)",
+      "loading": "Loading folders...",
+      "error": "Error loading folders",
+      "select": "Select"
+    },
+    "hint": {
+      "createFirst": "Start by creating a template",
+      "adjust": "Try adjusting your filters to find what you're looking for"
+    },
+    "actions": {
+      "create": "Create Template",
+      "addFolder": "Add Folder",
+      "createTemplate": "Create Template",
+      "folder": "Folder",
+      "template": "Template",
+      "selectFolder": "Select folder",
+      "currentFolder": "Current folder",
+      "templateName": "Template Name",
+      "workName": "Work Name",
+      "sendToStudent": "Send to Student"
+    },
+    "filters": {
+      "allStudents": "All Students",
+      "allTeachers": "All Teachers",
+      "onlyMy": "Only My",
+      "search": "Search by name",
+      "searchInside": "Templates in this folder",
+      "searchGlobal": "Templates and folders (global search)"
+    },
+    "dialog": {
+      "createFolder": {
+        "title": "Create New Folder",
+        "editTitle": "Edit Folder",
+        "name": "Folder Name",
+        "description": "Description",
+        "cover": {
+          "title": "Upload Folder Cover",
+          "delete": "Delete Cover"
+        }
+      },
+      "move": {
+        "title": "Move {{type}} to",
+        "folder": "Folder",
+        "template": "Template"
+      },
+      "delete": {
+        "folder": {
+          "message": "Are you sure you want to delete this folder? This action cannot be undone.",
+          "moveTemplates": "All templates in this folder will be moved to the root folder.",
+          "deleteSubfolders": "All subfolders in this folder will be deleted."
+        }
+      }
+    },
+    "message": {
+      "workSuccessfullyCreated": "Work successfully created",
+      "workSuccessfullyUpdated": "Work successfully updated",
+      "workSuccessfullyCopied": "Work successfully copied"
+    },
+    "validation": {
+      "titleLength": "Title must be at most 100 characters",
+      "descriptionLength": "Description must be at most 1000 characters"
+    },
+    "status": {
+      "templateCreated": "Template created successfully",
+      "folderCreated": "Folder created successfully",
+      "templateMoved": "Template moved successfully",
+      "folderMoved": "Folder moved successfully",
+      "templateDeleted": "Template deleted successfully",
+      "folderDeleted": "Folder deleted successfully"
+    }
+  },
+  "components": {
+    "editor": {
+      "tooltips": {
+        "element": "Element",
+        "dragAndDrop": "Drag-n-drop to move, Click - to open menu",
+        "delete": "Delete",
+        "convertToText": "Convert to regular text",
+        "showHint": "Show hint",
+        "hideHint": "Hide hint",
+        "duplicate": "Duplicate"
+      },
+      "actions": {
+        "delete": "Delete",
+        "showHint": "Show hint",
+        "hideHint": "Hide hint",
+        "convertToText": "Convert to regular text"
+      }
+    },
+    "hiddenText": {
+      "title": "Hidden Text",
+      "hint": "Text field that students need to reveal by typing the correct answer or drag and drop an answer from \"Draggable Answers\" if the section is added to the task.",
+      "addElements": "Add \"Hidden Text\" in the task"
+    },
+    "draggableAnswers": {
+      "title": "Draggable Answers",
+      "hint": "Panel with randomly shuffled answers that students can drag and drop to a 'Hidden Text' field. You can pin the panel to make it visible while scrolling the page.",
+      "pin": "Pin panel",
+      "unpin": "Unpin panel",
+      "order": "Order answers",
+      "shuffle": "Shuffle answers",
+      "addAlt": "Add alternatives options",
+      "willBeDraggable": "Will be Draggable for students"
+    },
+    "multipleChoice": {
+      "title": "Multiple Choice",
+      "hint": "Drop-down list with multiple options where students need to select the only one correct answer.",
+      "addOption": "Add Option"
+    },
+    "sortingOrdering": {
+      "title": "Sorting & Ordering Section",
+      "hint": "Panel with cards that students can reorder. Can be vertical (for sentences) or horizontal (for words or letters).",
+      "horizontal": "Order words or letters",
+      "vertical": "Order sentences"
+    },
+    "studentsSection": {
+      "title": "Student Section",
+      "hint": "Interactive section where students can write any text, record voice, attach images. Teacher can highlight text, and comment on the student's answers."
+    },
+    "image": {
+      "title": "Image",
+      "hint": "Upload, crop and insert an image into your task. You can select a file on your device, drag and drop file, or paste an image from clipboard in the editor."
+    },
+    "audio": {
+      "title": "Audio",
+      "hint": "Add an audio that students can play directly in the task. You can select a file on your device or record your own voice."
+    },
+    "embed": {
+      "title": "Embed Content",
+      "hint": "Add external web content in your task: YouTube, Wordwall, Google Docs, or any other website that supports iframe."
+    }
+  },
+  "display": {
+    "window": "Window",
+    "fullscreen": "Fullscreen"
+  },
+  "theme": {
+    "title": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "filters": {
+    "selectTags": "Select tags to filter tasks",
+    "enterTitle": "Enter task title to search"
+  },
+  "onboarding": {
+    "sharedTaskKey": "onboarding-ru",
+    "intro": "Let's get familiar with the platform. You can skip any step and come back to it later, or completely skip the tutorial and explore the platform on your own",
+    "steps": {
+      "createTasks": {
+        "title": "Create a Task",
+        "description": "Try how easy it is to create tasks",
+        "hint": "You can create as many tasks as you want and group them by tags. Tags can be created directly in the task",
+        "action": "Create Task"
+      },
+      "createTemplate": {
+        "title": "Create a Work Template",
+        "description": "Try creating a template from multiple tasks",
+        "hint": "You can add an existing task that we created in the first step to the template, or create a new task that will be immediately added to the template",
+        "action": "Create Template"
+      },
+      "inviteStudents": {
+        "title": "Invite a Student",
+        "description": "Create a contract with a student",
+        "hint": "You can invite as many students as you want. For each student, you will see a separate contract with terms and interaction history",
+        "action": "Create Contract"
+      },
+      "assignWorks": {
+        "title": "Assign Works to Student",
+        "description": "Assign works to a student using the created template",
+        "hint": "You will go to the Templates section, click the \"Assign\" button on the template card and select a student. You can modify the template work for each student",
+        "action": "Assign Work"
+      },
+      "manageBalance": {
+        "title": "Manage Student Balance",
+        "description": "Add lessons to student balance",
+        "hint": "You can add/deduct lessons from the student's balance for transparent accounting. You and students can find all operations in the \"Transactions\" section.",
+        "action": "Top Up Balance"
+      }
+    },
+    "actions": {
+      "skip": "Skip",
+      "skipOnboarding": "Skip Tutorial",
+      "watchVideo": "Watch Video",
+      "startPlatform": "Start Using Platform"
+    },
+    "status": {
+      "skipped": "Skipped"
+    }
+  },
+  "feedback": {
+    "title": "How would you rate this work?",
+    "additionalTitle": "Additional feedback (optional)",
+    "placeholder": "Share your thoughts about this work...",
+    "characterCount": "{{count}}/1000 characters",
+    "actions": {
+      "send": "Send Feedback",
+      "sending": "Sending...",
+      "skip": "Skip",
+      "cancel": "Cancel",
+      "update": "Update Feedback"
+    },
+    "error": {
+      "missingId": "Work ID is missing",
+      "loadFailed": "Failed to load work data. Please try again."
+    },
+    "status": {
+      "loading": "Loading..."
+    }
+  },
+  "workDetails": {
+    "title": "Tasks",
+    "feedback": {
+      "showMore": "Show More",
+      "showLess": "Show Less"
+    },
+    "creator": {
+      "student": "Created by teacher",
+      "teacher": "Created for student"
+    }
+  },
+  "taskForm": {
+    "image": {
+      "title": "Crop Image",
+      "actions": {
+        "cancel": "Cancel",
+        "cropAndUpload": "Crop & Upload",
+        "upload": "Upload",
+        "dragAndDrop": "Drag and drop an image here, or click to select",
+        "uploadError": "Failed to upload image. Please try again.",
+        "supports": "Supports: JPG, PNG, GIF",
+        "add": "Add Image",
+        "selectFromGallery": "Select from Gallery",
+        "loadError": "Failed to load images",
+        "insertError": "Failed to insert image",
+        "moreImages": "More..."
+      },
+      "recentImages": "Recent Images",
+      "gallery": {
+        "title": "Image Gallery",
+        "noImages": "No images found",
+        "loadMore": "Loading more images...",
+        "lastModified": "Last modified: {{date}}"
+      }
+    },
+    "audio": {
+      "title": "Add Audio",
+      "record": "Record",
+      "stop": "Stop",
+      "play": "Play",
+      "pause": "Pause",
+      "upload": "Upload Audio",
+      "dragAndDrop": "Drag and drop an audio file here, or click to select",
+      "uploadError": "Failed to upload audio. Please try again.",
+      "add": "Add Audio"
+    },
+    "iframe": {
+      "title": "External Content",
+      "url": "URL",
+      "urlPlaceholder": "Enter URL (e.g., YouTube, Wordwall, Google Docs)",
+      "preview": "Preview",
+      "add": "Add",
+      "cancel": "Cancel",
+      "error": "Invalid URL format"
+    },
+    "table": {
+      "title": "Add Table",
+      "rows": "Rows",
+      "columns": "Columns",
+      "add": "Add",
+      "cancel": "Cancel"
+    },
+    "ai": {
+      "title": "AI Assistant",
+      "placeholder": "Ask AI to help you with your task...",
+      "send": "Send",
+      "thinking": "Thinking...",
+      "error": "Failed to get AI response. Please try again.",
+      "history": "Chat History",
+      "imageRecognizedText": "Text recognized from image",
+      "workOnText": "Work on Text",
+      "generateImage": "Generate Image",
+      "messageInputPlaceholder": "Type your message here or paste an image to convert it to text...",
+      "image": "Image",
+      "sending": "Sending...",
+      "errors": {
+        "imageProcessing": "Error processing image",
+        "imageURLProcessing": "Error processing image URL",
+        "noTextRecognized": "No text recognized from image"
+      },
+      "rollback": "Rollback changes"
+    },
+    "title": {
+      "label": "Title",
+      "error": {
+        "required": "Please enter a Title"
+      }
+    },
+    "content": {
+      "error": {
+        "required": "Please enter any content"
+      }
+    },
+    "tags": {
+      "label": "Tags",
+      "create": "Create \"{{name}}\" tag"
+    },
+    "loading": {
+      "task": "Loading task...",
+      "default": "Loading...",
+      "saving": "Saving...",
+      "image": "Uploading image..."
+    },
+    "dialog": {
+      "unsavedChanges": {
+        "title": "Unsaved Changes",
+        "message": "You have unsaved changes. Do you want to continue editing?",
+        "discard": "Discard Changes",
+        "restore": "Restore Changes"
+      },
+      "cancel": {
+        "title": "Cancel Changes",
+        "message": "Do you want to cancel changes? All unsaved changes will be lost.",
+        "keep": "No, Keep Editing",
+        "confirm": "Yes, Cancel Changes"
+      },
+      "image": {
+        "title": "Uploading Image",
+        "close": "Close"
+      },
+      "generatedImage": {
+        "title": "Generated Image"
+      }
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "quickHelp": "Quick Help",
+      "livePreview": "Live Preview",
+      "aiAssistant": "AI Assistant",
+      "preview": "Preview",
+      "create": "Create",
+      "update": "Update"
+    },
+    "validation": {
+      "textOnlyInComponent": "Text only allowed inside a component, change cursor position"
+    }
+  },
+  "invite": {
+    "title": "Invite Student",
+    "description": "The student needs to join our Telegram bot first. Share this link with them:",
+    "shareTitle": "Join our Telegram Bot",
+    "shareText": "Join our Telegram Bot to start learning!"
+  },
+  "quiz": {
+    "hint": {
+      "title": "Need a hint?",
+      "message": "Would you like to see the answer or try to solve it yourself?",
+      "dontAskAgain": "Don't ask again",
+      "showAnswer": "Show Answer"
+    },
+    "spoiler": {
+      "hint": "hint",
+      "clear": "clear"
+    },
+    "select": {
+      "hint": "hint"
+    },
+    "essay": {
+      "textOnlyInComment": "Text only allowed inside a comment"
+    }
+  },
+  "contracts": {
+    "title": "Contracts",
+    "empty": {
+      "noContracts": "No contracts available",
+      "hint": "You need to create a contract with a student before you can assign work",
+      "teacher": "You haven't any active contracts yet",
+      "student": "You don't have any contracts",
+      "noMatch": "No contracts match your filter criteria",
+      "createFirst": "Start by creating a contract with your students",
+      "studentHint": "Your teacher will create a contract with you",
+      "adjustFilters": "Try adjusting your filters to find what you're looking for"
+    },
+    "actions": {
+      "create": "Create Contract",
+      "edit": "Edit Contract",
+      "update": "Update Contract",
+      "editExisting": "Edit Existing Contract",
+      "archive": "Archive",
+      "reject": "Reject and Block",
+      "agree": "Agree",
+      "decline": "Decline",
+      "viewWorks": "View Works",
+      "createWork": "Create Work",
+      "sendInvite": "Send Invite",
+      "viewTransactions": "View transactions"
+    },
+    "status": {
+      "loadingContract": "Loading contract...",
+      "loading": "Loading...",
+      "saving": "Saving...",
+      "active": "Active",
+      "pending": "Pending",
+      "agreed": "Agreed",
+      "rejected": "Rejected",
+      "archived": "Archived",
+      "contractCreated": "Contract created successfully. Please invite the student to the bot.",
+      "errorCreating": "Failed to save contract. Please try again.",
+      "statusUpdated": "Contract status updated",
+      "studentIsTeacher": "Username is registered as a Teacher. Please change Student username",
+      "studentIsSelf": "You can't create a contract with yourself. Please change Student username\t"
+    },
+    "form": {
+      "studentUsername": "Student Username",
+      "telegramUsername": "Telegram username",
+      "usernamePlaceholder": "username",
+      "pricePerLesson": "Price per one lesson",
+      "currency": "Currency",
+      "balanceLabel": "Balance of available lessons",
+      "balanceHint": "You can add lessons later",
+      "currentBalance": "Current balance",
+      "description": "Description",
+      "descriptionHint": "Visible for the student"
+    },
+    "card": {
+      "paidLessons": "Lessons",
+      "pricePerLesson": "Price",
+      "withTeacher": "Teacher",
+      "withStudent": "Student"
+    },
+    "dialog": {
+      "existingContract": {
+        "title": "Contract Already Exists",
+        "message": "You can have only one active contract with a student. Please edit the existing contract instead of creating a new one."
+      },
+      "archive": {
+        "title": "Archive Contract",
+        "message": "Are you sure you want to archive this contract? This action rejects the contract, but the teacher will still be able to offer you a new contract."
+      },
+      "reject": {
+        "title": "Reject and Block Teacher",
+        "message": "Are you sure you want to reject and block this teacher forever? This action will Block the teacher to prevent future contract offers from him."
+      },
+      "details": {
+        "title": "Contract Details",
+        "paidLessons": "Paid lessons",
+        "pricePerLesson": "Price per lesson",
+        "description": "Description",
+        "recentTransactions": "Recent Transactions",
+        "loadingTransactions": "Loading transactions...",
+        "contractCreated": "Contract created",
+        "lastUpdate": "Last update"
+      },
+      "transactions": {
+        "added": "Added",
+        "used": "Used",
+        "lessons": "lessons"
+      }
+    }
+  },
+  "doWork": {
+    "status": {
+      "loading": "Loading...",
+      "retrying": "Retrying..."
+    },
+    "actions": {
+      "close": "Close Work",
+      "back": "Back",
+      "startWork": "Start Work",
+      "continue": "Continue",
+      "review": "Review",
+      "save": "Save",
+      "complete": "Complete",
+      "checkAnswers": "Check Answers",
+      "markNotDone": "Mark as not done",
+      "checkAgain": "Check answers again",
+      "next": "Next",
+      "skip": "Skip",
+      "comment": "Comment",
+      "settings": "Settings"
+    },
+    "settings": {
+      "fontSize": {
+        "title": "Font size: {{size}}px",
+        "increase": "font size",
+        "decrease": "font size",
+        "reset": "Set default"
+      },
+      "hint": {
+        "title": "Hint confirmation",
+        "yes": "Yes",
+        "no": "No"
+      },
+      "task": {
+        "title": "Task",
+        "edit": "Edit Task"
+      }
+    },
+    "task": {
+      "list": "List",
+      "unsavedChanges": "Unsaved changes",
+      "status": {
+        "done": "Done",
+        "todo": "To Do"
+      }
+    },
+    "validation": {
+      "taskNotFound": "Task not found. Please refresh the page.",
+      "noInternet": "No internet connection. Please check your network.",
+      "updateFailed": "Failed to update task status. Please try again."
+    }
+  },
+  "tags": {
+    "empty": {
+      "teacher": "You haven't created any tags yet",
+      "default": "No tags available"
+    },
+    "actions": {
+      "createFirst": "Create your first tag",
+      "showTasks": "Show Tasks"
+    },
+    "input": {
+      "placeholder": "Create a new tag",
+      "label": "Tag Name"
+    },
+    "loading": {
+      "tags": "Loading tags..."
+    },
+    "dialog": {
+      "rename": {
+        "title": "Rename Tag",
+        "message": "Enter new tag name"
+      },
+      "delete": {
+        "title": "Delete Tag",
+        "message": "Are you sure you want to delete the tag \"{{name}}\"? This action cannot be undone."
+      }
+    }
+  },
+  "transactions": {
+    "title": "Transactions",
+    "toAdd": "add",
+    "toRedeem": "redeem",
+    "empty": {
+      "noTransactions": "No transactions available",
+      "noTransactionsForContract": "No transactions for this contract",
+      "hint": {
+        "teacher": "Start by creating a transaction for a contract",
+        "student": "No transaction history available"
+      },
+      "adjustFilters": "Try adjusting your filters to find what you're looking for"
+    },
+    "actions": {
+      "create": "Create Transaction",
+      "creating": "Creating...",
+      "viewTransactions": "View Transactions",
+      "clearFilters": "Clear Filters",
+      "trySelectingDifferent": "Try selecting a different contract",
+      "createdSuccess": "Transaction created successfully!"
+    },
+    "filters": {
+      "contract": "Contract",
+      "allContracts": "All Contracts",
+      "type": "Transaction Type",
+      "allTypes": "All Types",
+      "fromDate": "From Date",
+      "toDate": "To Date"
+    },
+    "form": {
+      "title": "Create Transaction",
+      "contract": "Contract",
+      "noActiveContracts": "No Active contracts",
+      "type": {
+        "label": "Transaction Type",
+        "topUp": "Top Up",
+        "redeem": "Redeem"
+      },
+      "lessons": {
+        "title": "Lessons to {{action}}",
+        "label": "Number of Lessons",
+        "error": "Minimum 1 lesson"
+      },
+      "payment": {
+        "title": "Payment (optional)",
+        "amount": "Amount",
+        "currency": "Currency"
+      },
+      "contractInfo": {
+        "paidLessons": "Paid lessons",
+        "pricePerLesson": "Price per lesson"
+      }
+    },
+    "table": {
+      "date": "Date",
+      "type": "Type",
+      "amount": "Amount",
+      "lessons": "Lessons",
+      "student": "Student",
+      "teacher": "Teacher"
+    },
+    "validation": {
+      "contractRequired": "Valid contract is required",
+      "typeRequired": "Transaction type is required",
+      "lessonsOrAmount": "Either number of lessons or amount and currency must be provided",
+      "minimumLessons": "Minimum 1 lesson"
+    }
+  },
+  "selectTasks": {
+    "search": {
+      "label": "Search tasks by title",
+      "placeholder": "Enter task title to search...",
+      "clearAria": "clear search"
+    },
+    "filter": {
+      "byTags": {
+        "label": "Filter tasks by tags",
+        "placeholder": "Select tags to filter tasks"
+      },
+      "clear": "Clear Filter"
+    },
+    "actions": {
+      "selectAll": "Select all",
+      "unselectAll": "Unselect all"
+    },
+    "empty": {
+      "noTasks": "No tasks available"
+    },
+    "loading": {
+      "tasks": "Loading tasks..."
+    }
+  },
+  "comments": {
+    "title": "Comments",
+    "input": {
+      "placeholder": "Write a comment...",
+      "notify": {
+        "student": "Notify {{name}} via Telegram",
+        "teacher": "Notify {{name}} via Telegram"
+      }
+    },
+    "actions": {
+      "post": "Post",
+      "postAndNotify": "Post & Notify",
+      "reply": "Reply",
+      "edit": "Edit",
+      "delete": "Delete",
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "dialog": {
+      "delete": {
+        "title": "Delete Comment",
+        "message": "Are you sure you want to delete this comment?"
+      }
+    },
+    "replyTo": "Replying to {{name}}",
+    "created": "Comment added successfully",
+    "updated": "Comment updated successfully",
+    "deleted": "Comment deleted successfully",
+    "createdAndNotified": "Comment added successfully. Notification sent to Telegram"
+  },
+  "folders": {
+    "status": {
+      "updated": "Folder updated successfully"
+    }
+  },
+  "takForm": {
+    "audio": {
+      "support": "Supports: MP3, WAV, OGG, M4A"
+    }
+  },
+  "editor": {
+    "dialogControls": {
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "uploadImage": {
+      "dialogTitle": "Upload an image",
+      "uploadInstructions": "Upload an image from your device:",
+      "addViaUrlInstructions": "Or add an image from an URL:",
+      "autoCompletePlaceholder": "Select or paste an image src",
+      "alt": "Alt:",
+      "title": "Title:"
+    },
+    "imageEditor": {
+      "deleteImage": "Delete image",
+      "editImage": "Edit image"
+    },
+    "createLink": {
+      "url": "URL",
+      "urlPlaceholder": "Select or paste an URL",
+      "title": "Title",
+      "saveTooltip": "Set URL",
+      "cancelTooltip": "Cancel change"
+    },
+    "linkPreview": {
+      "open": "Open {{url}} in new window",
+      "edit": "Edit link URL",
+      "copyToClipboard": "Copy to clipboard",
+      "copied": "Copied!",
+      "remove": "Remove link"
+    },
+    "table": {
+      "deleteTable": "Delete table",
+      "columnMenu": "Column menu",
+      "textAlignment": "Text alignment",
+      "alignLeft": "Align left",
+      "alignCenter": "Align center",
+      "alignRight": "Align right",
+      "insertColumnLeft": "Insert a column to the left of this one",
+      "insertColumnRight": "Insert a column to the right of this one",
+      "deleteColumn": "Delete this column",
+      "rowMenu": "Row menu",
+      "insertRowAbove": "Insert a row above this one",
+      "insertRowBelow": "Insert a row below this one",
+      "deleteRow": "Delete this row"
+    },
+    "toolbar": {
+      "blockTypes": {
+        "paragraph": "Paragraph",
+        "quote": "Quote",
+        "heading": "Heading {{level}}"
+      },
+      "blockTypeSelect": {
+        "selectBlockTypeTooltip": "Select block type",
+        "placeholder": "Block type"
+      },
+      "toggleGroup": "toggle group",
+      "removeBold": "Remove bold",
+      "bold": "Bold",
+      "removeItalic": "Remove italic",
+      "italic": "Italic",
+      "underline": "Remove underline",
+      "removeUnderline": "Underline",
+      "removeInlineCode": "Remove code format",
+      "inlineCode": "Inline code format",
+      "link": "Create link",
+      "richText": "Rich text",
+      "diffMode": "Diff mode",
+      "source": "Source mode",
+      "admonition": "Insert Admonition",
+      "codeBlock": "Insert Code Block",
+      "editFrontmatter": "Edit frontmatter",
+      "insertFrontmatter": "Insert frontmatter",
+      "image": "Insert image",
+      "insertSandpack": "Insert Sandpack",
+      "table": "Insert Table",
+      "thematicBreak": "Insert thematic break",
+      "bulletedList": "Bulleted list",
+      "numberedList": "Numbered list",
+      "checkList": "Check list",
+      "deleteSandpack": "Delete this code block",
+      "undo": "Undo {{shortcut}}",
+      "redo": "Redo {{shortcut}}"
+    },
+    "codeBlock": {
+      "language": "Code block language",
+      "selectLanguage": "Select code block language"
+    },
+    "contentArea": {
+      "editableMarkdown": "editable markdown"
+    }
+  },
+  "comment": {
+    "status": {
+      "open": "open",
+      "done": "done"
+    },
+    "color": "Color",
+    "colors": {
+      "info": "info",
+      "error": "error",
+      "success": "success"
+    },
+    "messages": "Messages",
+    "error": {
+      "selectText": "Please select some text to comment first"
+    },
+    "insert": {
+      "tooltip": "Add inline comment"
+    }
+  },
+  "language": {
+    "title": "Language"
+  }
+}
