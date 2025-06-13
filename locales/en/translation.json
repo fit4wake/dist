@@ -383,6 +383,9 @@
     "embed": {
       "title": "Embed Content",
       "hint": "Add external web content in your task: YouTube, Wordwall, Google Docs, or any other website that supports iframe."
+    },
+    "select": {
+      "shuffle": "Shuffle options"
     }
   },
   "display": {
