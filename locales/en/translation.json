@@ -331,7 +331,13 @@
       "onlyMy": "Only My",
       "search": "Search by name",
       "searchInside": "Templates in this folder",
-      "searchGlobal": "Templates and folders (global search)"
+      "searchGlobal": "Templates and folders (global search)",
+      "order": {
+        "newestFirst": "Newest First",
+        "oldestFirst": "Oldest First",
+        "nameAZ": "Name A-Z",
+        "nameZA": "Name Z-A"
+      }
     },
     "dialog": {
       "createFolder": {
@@ -522,7 +528,18 @@
     "title": "Tasks",
     "feedback": {
       "showMore": "Show More",
-      "showLess": "Show Less"
+      "showLess": "Show Less",
+      "student": "Student's feedback",
+      "teacher": "Teacher's feedback"
+    },
+    "teacherFeedback": {
+      "title": "Teacher Feedback",
+      "placeholder": "Add your feedback for the student...",
+      "save": "Send",
+      "saving": "Saving...",
+      "cancel": "Cancel",
+      "add": "Add teacher feedback",
+      "success": "Feedback saved successfully"
     },
     "creator": {
       "student": "Created by teacher",
