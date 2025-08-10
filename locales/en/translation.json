@@ -499,7 +499,7 @@
     "actions": {
       "skip": "Skip",
       "skipOnboarding": "Skip Tutorial",
-      "watchVideo": "Watch Video",
+      "watchVideo": "Video",
       "startPlatform": "Start Using Platform",
       "help": "Help"
     },
