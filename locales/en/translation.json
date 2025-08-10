@@ -157,7 +157,8 @@
     "menu": {
       "show": "Show menu",
       "hide": "Hide menu"
-    }
+    },
+    "help": "Help"
   },
   "profile": {
     "title": "Profile",
@@ -466,7 +467,7 @@
       "createTasks": {
         "title": "Create a Task",
         "description": "Try how easy it is to create tasks",
-        "hint": "You can create as many tasks as you want and group them by tags. Tags can be created directly in the task",
+        "hint": "You can create as many tasks as you want and group them by tags. ",
         "action": "Create Task"
       },
       "createTemplate": {
@@ -479,11 +480,12 @@
         "title": "Invite a Student",
         "description": "Create a contract with a student",
         "hint": "You can invite as many students as you want. For each student, you will see a separate contract with terms and interaction history",
-        "action": "Create Contract"
+        "action": "Invite Student",
+        "skip": "Try with our bot"
       },
       "assignWorks": {
         "title": "Assign Works to Student",
-        "description": "Assign works to a student using the created template",
+        "description": "Assign works to a student",
         "hint": "You will go to the Templates section, click the \"Assign\" button on the template card and select a student. You can modify the template work for each student",
         "action": "Assign Work"
       },
@@ -498,11 +500,15 @@
       "skip": "Skip",
       "skipOnboarding": "Skip Tutorial",
       "watchVideo": "Watch Video",
-      "startPlatform": "Start Using Platform"
+      "startPlatform": "Start Using Platform",
+      "help": "Help"
     },
     "status": {
       "skipped": "Skipped"
-    }
+    },
+    "intro_video": "Watch a short video with a demo",
+    "intro_setup": "Set your language and theme:",
+    "intro_resize": "It’s more convenient for the teacher to work on a computer or tablet. Please maximize the application window to full screen. If you find it inconvenient to work in Telegram, you can use the application on our website"
   },
   "feedback": {
     "title": "How would you rate this work?",
@@ -747,7 +753,8 @@
       "balanceHint": "You can add lessons later",
       "currentBalance": "Current balance",
       "description": "Description",
-      "descriptionHint": "Visible for the student"
+      "descriptionHint": "Visible for the student",
+      "testStudentDescription": "Test contract to explore the platform"
     },
     "card": {
       "paidLessons": "Lessons",
