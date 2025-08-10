@@ -508,7 +508,8 @@
     },
     "intro_video": "Watch a short video with a demo",
     "intro_setup": "Set your language and theme:",
-    "intro_resize": "It’s more convenient for the teacher to work on a computer or tablet. Please maximize the application window to full screen. If you find it inconvenient to work in Telegram, you can use the application on our website"
+    "intro_resize": "It’s more convenient for the teacher to work on a computer or tablet. Please maximize the application window to full screen.",
+    "short_resize": "Maximize the window "
   },
   "feedback": {
     "title": "How would you rate this work?",
