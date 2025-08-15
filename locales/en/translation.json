@@ -130,6 +130,8 @@
       "browserAuth": "If you prefer to work in a browser, you can use authorization via widget:"
     },
     "or": "or",
+    "showAlternative": "No Telegram account?",
+    "hideAlternative": "Use Telegram",
     "googleLoginSuccess": "Google account connected successfully!",
     "googleLoginError": "Failed to connect Google account. Please try again.",
     "signingIn": "Signing in...",
@@ -137,7 +139,8 @@
     "signOut": "Sign Out",
     "confirmSignOut": "Confirm Sign Out",
     "confirmSignOutMessage": "Are you sure you want to sign out?",
-    "cancel": "Cancel"
+    "cancel": "Cancel",
+    "telegramRecommendation": "We recommend signing in with Telegram — this way you can receive notifications and open assignments directly in chat. If you don’t have Telegram, use another sign-in method."
   },
   "navigation": {
     "home": "Home",

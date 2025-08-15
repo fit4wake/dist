@@ -130,6 +130,8 @@
       "browserAuth": "Если вы предпочитаете работать в браузере, вы можете использовать авторизацию через виджет:"
     },
     "or": "или",
+    "showAlternative": "Нет Telegram аккаунта?",
+    "hideAlternative": "Войти через Telegram",
     "googleLoginSuccess": "Google аккаунт успешно подключен!",
     "googleLoginError": "Не удалось подключить Google аккаунт. Пожалуйста, попробуйте снова.",
     "signingIn": "Вход...",
@@ -137,7 +139,8 @@
     "signOut": "Выйти",
     "confirmSignOut": "Подтвердите выход",
     "confirmSignOutMessage": "Вы уверены, что хотите выйти?",
-    "cancel": "Отмена"
+    "cancel": "Отмена",
+    "telegramRecommendation": "Рекомендуем вход через Telegram — так вы сможете получать уведомления и открывать задания прямо в чате. Если у вас нет Telegram - воспользуйтесь другими способами входа:"
   },
   "navigation": {
     "home": "Главная",

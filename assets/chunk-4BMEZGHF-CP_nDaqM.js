@@ -1,0 +1,1 @@
+import{ba as c}from"./main-C0pfxit8.js";function l(c,l){var t,a,e;c.accDescr&&(null==(t=l.setAccDescription)||t.call(l,c.accDescr)),c.accTitle&&(null==(a=l.setAccTitle)||a.call(l,c.accTitle)),c.title&&(null==(e=l.setDiagramTitle)||e.call(l,c.title))}c(l,"populateCommonDb");export{l as p};
