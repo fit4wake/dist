@@ -391,9 +391,9 @@
     "editor": {
       "tooltips": {
         "element": "Element",
-        "dragAndDrop": "Drag-n-drop to move, Click - to open menu",
+        "dragAndDrop": "Drag to move or click to open menu",
         "delete": "Delete",
-        "convertToText": "Convert to regular text",
+        "convertToText": "Convert to regular text", 
         "showHint": "Show hint",
         "hideHint": "Hide hint",
         "duplicate": "Duplicate"
@@ -406,62 +406,66 @@
       }
     },
     "hiddenText": {
-      "title": "Hidden Text",
-      "hint": "Text field that students need to reveal by typing the correct answer or drag and drop an answer from \"Draggable Answers\" if the section is added to the task.",
-      "addElements": "Add \"Hidden Text\" in the task"
+      "title": "Text Input",
+      "hint": "A text field where students must enter the correct answer themselves or drag an answer card from the \"Draggable Answers\" section if it's added to the task.",
+      "addElements": "Empty for now"
     },
     "draggableAnswers": {
       "title": "Draggable Answers",
-      "hint": "Panel with randomly shuffled answers that students can drag and drop to a 'Hidden Text' field. You can pin the panel to make it visible while scrolling the page.",
+      "hint": "Answer panel. Students can drag them to the 'Text Input' field. Add 'Text Input' elements to the task and answers will be automatically added to the panel.",
       "pin": "Pin panel",
-      "unpin": "Unpin panel",
+      "unpin": "Unpin panel", 
       "order": "Order answers",
       "shuffle": "Shuffle answers",
-      "addAlt": "Add alternatives options",
-      "willBeDraggable": "Will be Draggable for students"
+      "addAlt": "Add alternative options",
+      "willBeDraggable": "Will be draggable for students"
     },
     "multipleChoice": {
-      "title": "Multiple Choice",
-      "hint": "Drop-down list with multiple options where students need to select the only one correct answer.",
-      "addOption": "Add Option"
+      "title": "Dropdown List",
+      "hint": "Dropdown list with multiple options where students must select only one correct answer.",
+      "addOption": "Add option"
     },
     "sortingOrdering": {
-      "title": "Sorting & Ordering Section",
-      "hint": "Panel with cards that students can reorder. Can be vertical (for sentences) or horizontal (for words or letters).",
+      "title": "Sorting",
+      "hint": "Panel with cards that students need to order. Can be vertical (for sentences) or horizontal (for words or letters). Press Enter to split a card, delete space between cards to merge them. Cards will be randomly shuffled for students.",
       "horizontal": "Order words or letters",
-      "vertical": "Order sentences"
+      "vertical": "Order sentences",
+      "switchToHorizontal": "Switch to Horizontal",
+      "switchToVertical": "Switch to Vertical"
     },
     "studentsSection": {
-      "title": "Student Section",
-      "hint": "Interactive section where students can write any text, record voice, attach images. Teacher can highlight text, and comment on the student's answers."
+      "title": "Free-form Answer",
+      "hint": "Interactive field where students can enter any text, record voice or add images. Teacher can highlight and comment on parts of the answer when reviewing. Can be switched to simple mode if only text is needed",
+      "switchToAdvanced": "Switch to Advanced mode",
+      "switchToSimple": "Switch to Simple text"
     },
     "image": {
       "title": "Image",
-      "hint": "Upload, crop and insert an image into your task. You can select a file on your device, drag and drop file, or paste an image from clipboard in the editor."
+      "hint": "Upload, crop and insert an image into your task. You can select a file on your device, drag and drop a file or paste an image from clipboard."
     },
     "audio": {
       "title": "Audio",
-      "hint": "Add an audio that students can play directly in the task. You can select a file on your device or record your own voice."
+      "hint": "Add audio that students can play directly in the task. You can select a file on your device or record your own voice."
     },
     "embed": {
-      "title": "Embed Content",
-      "hint": "Add external web content in your task: YouTube, Wordwall, Google Docs, or any other website that supports iframe."
+      "title": "External Content",
+      "hint": "Add external web content to your task: YouTube, Wordwall, Google Docs or any other website that supports iframe."
     },
     "select": {
-      "shuffle": "Shuffle options"
+      "shuffle": "Shuffle"
     },
     "checklist": {
       "title": "Checkbox List",
-      "hint": "A list with multiple answer options where students can select one or more correct answers by checking the boxes."
+      "hint": "A block with multiple answer options where students can select one or more correct answers by checking boxes."
     },
     "defaults": {
       "answer": "answer",
-      "option": "option",
+      "option": "option", 
       "question": "Question",
       "audio": "Audio example"
     },
     "help": {
-      "title": "The same set of elements is available on the editor toolbar. You can combine different mechanics within a single task"
+      "title": "The same set of elements is available on the editor toolbar. You can combine different mechanics in one task"
     }
   },
   "display": {
@@ -580,7 +584,7 @@
   },
   "taskForm": {
     "image": {
-      "title": "Crop Image",
+      "title": "Image",
       "actions": {
         "cancel": "Cancel",
         "cropAndUpload": "Crop & Upload",
@@ -603,7 +607,7 @@
       }
     },
     "audio": {
-      "title": "Add Audio",
+      "title": "Audio",
       "record": "Record",
       "stop": "Stop",
       "play": "Play",
