@@ -94,7 +94,8 @@
       "moveTo": "Move to...",
       "send": "Send",
       "hide": "Hide",
-      "saveDraft": "Save Draft"
+      "saveDraft": "Save Draft",
+      "details": "Details"
     },
     "dialog": {
       "delete": {
@@ -278,7 +279,9 @@
       "addExistingTask": "Add Existing Task",
       "enterWorkName": "Enter a work name",
       "sendToStudent": "Send to Student",
-      "addTasks": "Add Tasks"
+      "addTasks": "Add Tasks",
+      "inFolder": "in the folder",
+      "inRootFolder": "without a folder"
     },
     "status": {
       "completed": "Completed",
@@ -393,7 +396,7 @@
         "element": "Element",
         "dragAndDrop": "Drag to move or click to open menu",
         "delete": "Delete",
-        "convertToText": "Convert to regular text", 
+        "convertToText": "Convert to regular text",
         "showHint": "Show hint",
         "hideHint": "Hide hint",
         "duplicate": "Duplicate"
@@ -414,7 +417,7 @@
       "title": "Draggable Answers",
       "hint": "Answer panel. Students can drag them to the 'Text Input' field. Add 'Text Input' elements to the task and answers will be automatically added to the panel.",
       "pin": "Pin panel",
-      "unpin": "Unpin panel", 
+      "unpin": "Unpin panel",
       "order": "Order answers",
       "shuffle": "Shuffle answers",
       "addAlt": "Add alternative options",
@@ -435,9 +438,36 @@
     },
     "studentsSection": {
       "title": "Free-form Answer",
-      "hint": "Interactive field where students can enter any text, record voice or add images. Teacher can highlight and comment on parts of the answer when reviewing. Can be switched to simple mode if only text is needed",
+      "hint": "Student can enter any text, record voice or add image.",
+      "hint2": "Teacher can specify evaluation criteria, for example for EGE, OGE, or other exams.",
+      "hint3": "Can be switched to simple mode if only text is needed.",
       "switchToAdvanced": "Switch to Advanced mode",
-      "switchToSimple": "Switch to Simple text"
+      "switchToSimple": "Switch to Simple text",
+      "advanced": "Advanced",
+      "criterias": "Criteria",
+      "addCriteria": "Add Criteria",
+      "criteriaName": "Criteria name",
+      "noCriterias": "No evaluation criteria added",
+      "textEditorPlaceholder": "Students answer",
+      "showAdvanced": "Allow audio and pictures",
+      "maxScore": "Max Score",
+      "criteria": {
+        "of": "of",
+        "total": "Total",
+        "error": "Error",
+        "to_check": "Wait for check",
+        "success": "Success",
+        "warning": "Mistake",
+        "default": "Not checked",
+        "no_criteria": "Criterias are not set",
+        "validateWithAI": "Validate with AI",
+        "one": "Criteria",
+        "aiDisabled": "AI Validation is disabled by the teacher",
+        "enterText": "Enter the answer text"
+      },
+      "criteriaDescription": "Criteria description",
+      "criteriaDescriptionHint": "Used for AI validation, invisible for students",
+      "allowAIValidation": "Allow AI validation for student"
     },
     "image": {
       "title": "Image",
@@ -460,12 +490,22 @@
     },
     "defaults": {
       "answer": "answer",
-      "option": "option", 
+      "option": "option",
       "question": "Question",
-      "audio": "Audio example"
+      "audio": "Audio example",
+      "task": "Tasks text"
     },
     "help": {
-      "title": "The same set of elements is available on the editor toolbar. You can combine different mechanics in one task"
+      "title": "The same set of elements is available on the editor toolbar. You can combine different mechanics in one task",
+      "text": {
+        "title": "Short answer"
+      },
+      "freeText": {
+        "title": "Free-form answer"
+      },
+      "media": {
+        "title": "Multimedia"
+      }
     }
   },
   "display": {
@@ -559,6 +599,7 @@
   },
   "workDetails": {
     "title": "Tasks",
+    "hasStudentAnswer": "Has student answer",
     "feedback": {
       "showMore": "Show More",
       "showLess": "Show Less",
@@ -1133,6 +1174,12 @@
       "language": "Code block language",
       "selectLanguage": "Select code block language"
     },
+    "frontmatterEditor": {
+      "key": "Key",
+      "value": "Value",
+      "addEntry": "Add entry",
+      "title": "Edit document frontmatter"
+    },
     "contentArea": {
       "editableMarkdown": "editable markdown"
     }
@@ -1142,11 +1189,26 @@
       "open": "open",
       "done": "done"
     },
+    "type": "Type",
+    "types": {
+      "common": "Common",
+      "speech": "Speech",
+      "lexical": "Lexical",
+      "punctuation": "Punctuation",
+      "grammar": "Grammar",
+      "logic": "Logic",
+      "stylistic": "Stylistic",
+      "orthographic": "Orthographic",
+      "factual": "Factual",
+      "arithmetic": "Arithmetic",
+      "phonetic": "Phonetic",
+      "ethical": "Ethical"
+    },
     "color": "Color",
     "colors": {
-      "info": "info",
-      "error": "error",
-      "success": "success"
+      "info": "Info",
+      "error": "Error",
+      "success": "Success"
     },
     "messages": "Messages",
     "error": {
@@ -1154,7 +1216,12 @@
     },
     "insert": {
       "tooltip": "Add inline comment"
-    }
+    },
+    "delete": {
+      "confirm": "Delete comment?",
+      "message": "Are you sure you want to delete this comment? This action cannot be undone."
+    },
+    "title": "Inline Comment"
   },
   "language": {
     "title": "Language"
