@@ -561,7 +561,7 @@
     },
     "actions": {
       "skip": "Позже",
-      "skipOnboarding": "Пропустить все",
+      "skipOnboarding": "Пропустить",
       "watchVideo": "Видео",
       "startPlatform": "Начать работу",
       "help": "Инструкция"
