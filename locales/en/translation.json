@@ -44,6 +44,7 @@
       "processing": "Request processing",
       "toStudent": "Student",
       "toStudentDescription": "You can change your role in the Profile menu",
+      "toTeacherDescription": "I will work with students and create materials",
       "title": "Select your role"
     },
     "upgrade": {
@@ -575,7 +576,7 @@
   },
   "onboarding": {
     "sharedTaskKey": "onboarding-ru",
-    "intro": "Let’s get to know the platform",
+    "intro": "Let's get to know the platform",
     "steps": {
       "createTasks": {
         "title": "Create a Task",
@@ -586,7 +587,8 @@
       "createTemplate": {
         "title": "Create a Work Template",
         "hint": "A template allows you to combine several tasks into one ready-made typical work. You can add both previously created tasks and new ones - they are automatically included in the template.\n\nThe template can be assigned to students as work.",
-        "action": "Create Template"
+        "action": "Create Template",
+        "description": "You can prepare a template in advance and later assign it to students or share a link"
       },
       "assignWorks": {
         "title": "Assign work to students",
@@ -810,6 +812,10 @@
     },
     "editor": {
       "placeholder": "Enter the task text and add interactive elements"
+    },
+    "admonition": {
+      "add": "Add Teacher Note",
+      "tip": "Teacher Note"
     }
   },
   "invite": {
