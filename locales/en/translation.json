@@ -6,6 +6,11 @@
     "english": "English",
     "russian": "Русский"
   },
+  "roles": {
+    "student": "Student",
+    "teacher": "Teacher",
+    "admin": "Admin"
+  },
   "home": {
     "welcome": "Welcome, {{name}}!",
     "settings": "Settings",
@@ -34,15 +39,22 @@
       "title": "Templates"
     },
     "switch": {
-      "toTeacher": "Request Access",
+      "toTeacher": "Teacher",
       "cancel": "Hide",
-      "processing": "Request processing"
+      "processing": "Request processing",
+      "toStudent": "Student",
+      "toStudentDescription": "You can change your role in the Profile menu",
+      "title": "Select your role"
     },
     "upgrade": {
       "description": "Your motivation (Optional)",
       "title": "Request Teacher Access",
       "requestSent": "Request sent, please wait for confirmation",
-      "tileText": "Teacher Access"
+      "tileText": "Teacher Access",
+      "success": "Role switched"
+    },
+    "transactions": {
+      "title": "Transactions"
     }
   },
   "common": {
@@ -73,12 +85,14 @@
       "open": "Open",
       "select": "Select",
       "copy": "Copy",
+      "exclude": "Remove from work",
       "export": "Export (.docx)",
       "actions": "Actions",
       "restore": "Restore",
       "tryAgain": "Try again",
       "share": "Share",
       "copyLink": "Copy link",
+      "openInNewTab": "Open in new tab",
       "checkAnswers": "Check Answers",
       "showAnswer": "Show Answer",
       "help": "Help",
@@ -89,7 +103,7 @@
       "done": "Done",
       "change": "Change",
       "remove": "Remove from work",
-      "add": "Add to work",
+      "add": "Add",
       "rename": "Rename",
       "moveTo": "Move to...",
       "send": "Send",
@@ -100,7 +114,7 @@
     "dialog": {
       "delete": {
         "title": "Delete {{item}}",
-        "message": "Are you sure you want to delete \"{{name}}\"? This action cannot be undone.",
+        "message": "Are you sure you want to delete \"{{name}}\"?",
         "messageBulk": "Are you sure you want to delete {{count}} selected {{item}}? This action cannot be undone."
       },
       "preview": {
@@ -119,8 +133,14 @@
       "deleting": "Deleting...",
       "saving": "Saving...",
       "loading": "Loading...",
-      "linkCopied": "Link copied to clipboard!"
-    }
+      "linkCopied": "Link copied to clipboard!",
+      "shareKeyCreated": "Share link created successfully",
+      "shareKeyDeleted": "Share link deleted successfully"
+    },
+    "my": {
+      "many": "My"
+    },
+    "theme": "Theme"
   },
   "auth": {
     "welcome": "Welcome to Teachair!",
@@ -200,11 +220,15 @@
     "disconnect": "Disconnect",
     "usernameCopied": "Username copied to clipboard",
     "usernameCopyError": "Failed to copy username",
-    "edit": "Edit",
+    "edit": "Edit Name",
     "editProfile": "Edit Profile",
     "firstName": "First Name",
     "lastName": "Last Name",
-    "save": "Save"
+    "save": "Save",
+    "confirmToStudent": "Switch To Student",
+    "confirmToStudentMessage": "Are you sure you want to switch your role to Student?",
+    "switchRole": "Switch Role",
+    "saving": "Saving"
   },
   "tasks": {
     "title": "Tasks",
@@ -216,7 +240,7 @@
     "actions": {
       "createFirst": "Create your first task",
       "clearFilters": "Clear filters",
-      "createTask": "Create Task",
+      "createTask": "Create a new Task",
       "filterByTags": "Filter by tags",
       "searchByTitle": "Search by title"
     },
@@ -254,9 +278,10 @@
     },
     "tabs": {
       "step1": {
-        "create": "Create Work",
-        "edit": "Edit Work",
-        "copy": "Copy Work"
+        "create": "Create",
+        "edit": "Editing",
+        "copy": "Create a copy",
+        "send": "Sending"
       },
       "step2": "Manage Tasks"
     },
@@ -276,12 +301,14 @@
       "noLessonsAvailable": "No lessons available in the active contract",
       "noActiveContract": "No active contract found for this student",
       "autoSaveHint": "Work will be saved automatically as Draft",
-      "addExistingTask": "Add Existing Task",
+      "addExistingTask": "Select existing",
       "enterWorkName": "Enter a work name",
       "sendToStudent": "Send to Student",
-      "addTasks": "Add Tasks",
+      "addTasks": "Tasks selector",
+      "selectTaskToPreview": "Select a task to preview",
       "inFolder": "in the folder",
-      "inRootFolder": "without a folder"
+      "inRootFolder": "(without a folder)",
+      "templateHintEditing": "Editing template"
     },
     "status": {
       "completed": "Completed",
@@ -306,6 +333,19 @@
   "templates": {
     "title": "Templates",
     "titleSingle": "Template",
+    "templateLinks": {
+      "title": "Assign work via link",
+      "description": "You can create a link and share it with your students or post it publicly.",
+      "createShareKey": "Create Share Link",
+      "deleteShareKey": "Disable access via link",
+      "confirmDelete": "Delete Share Link",
+      "confirmDeleteMessage": "Are you sure you want to delete the share link? This will make the template inaccessible via the current link.",
+      "description2": "Anyone who opens the link will automatically be assigned the work according to this template and will appear in your Works section. If it's a new student, you will receive a notification and see them in the Students section.",
+      "linkExisting": "Public Link",
+      "deleteShareKeyDetails": "This will make the template unavailable via the current link, but the works that have already been assigned will remain with the students.",
+      "webLink": "Web Link",
+      "telegramLink": "Link for Telegram"
+    },
     "empty": {
       "noFolder": "You don't have any templates without folder",
       "noTemplates": "You haven't created any templates yet",
@@ -373,8 +413,8 @@
       }
     },
     "message": {
-      "workSuccessfullyCreated": "Work successfully created",
-      "workSuccessfullyUpdated": "Work successfully updated",
+      "workSuccessfullyCreated": "Successfully created",
+      "workSuccessfullyUpdated": "Updated successfully",
       "workSuccessfullyCopied": "Work successfully copied"
     },
     "validation": {
@@ -388,7 +428,17 @@
       "folderMoved": "Folder moved successfully",
       "templateDeleted": "Template deleted successfully",
       "folderDeleted": "Folder deleted successfully"
-    }
+    },
+    "createForStudent": {
+      "title": "Individual assignment for a Student",
+      "description": "An individual assignment for the student will be created from the template. Before sending, you can modify it — this will not affect the template."
+    },
+    "createNewTemplate": {
+      "title": "Create a Template",
+      "description": "You can prepare a template in advance and later assign it to students or create a public link to share it directly or post it in any group, chat, etc."
+    },
+    "addFirstStudent": "Add first student",
+    "addFirstStudentDescription": "You don't have any students on our platform yet. Send a link to invite students and immediately assign work."
   },
   "components": {
     "editor": {
@@ -463,7 +513,8 @@
         "validateWithAI": "Validate with AI",
         "one": "Criteria",
         "aiDisabled": "AI Validation is disabled by the teacher",
-        "enterText": "Enter the answer text"
+        "enterText": "Enter the answer text",
+        "notAvailableInPreview": "Unavailable in preview mode but will be available to students"
       },
       "criteriaDescription": "Criteria description",
       "criteriaDescriptionHint": "Used for AI validation, invisible for students",
@@ -528,54 +579,48 @@
     "steps": {
       "createTasks": {
         "title": "Create a Task",
-        "description": "Try how easy it is to create tasks",
-        "hint": "You can create tasks with text, images, audio, and other interactive elements. In a single task, you can combine different mechanics: text input, multiple-choice selection, drag-and-drop, and more. Our AI assistant speeds up the task creation process.",
+        "hint": "A task is a separate exercise (activity, task). It can contain text, images, audio and various interactive elements for student response.\n\nLarge tasks are better divided into several small ones, so students can complete them more conveniently, and you can track progress.\n\nThis is like puzzle pieces from which you will assemble works for students. One task can be included in several works and templates.",
         "action": "Create Task",
         "firstTaskTitle": "My first task"
       },
       "createTemplate": {
         "title": "Create a Work Template",
-        "description": "A template is a way to combine several tasks into a standard assignment",
-        "hint": "You can quickly assign it to students without selecting individual tasks. Before sending, the template can be modified for a specific student",
+        "hint": "A template allows you to combine several tasks into one ready-made typical work. You can add both previously created tasks and new ones - they are automatically included in the template.\n\nThe template can be assigned to students as work.",
         "action": "Create Template"
       },
-      "inviteStudents": {
-        "title": "Invite a Student",
-        "description": "Create a contract with a student",
-        "hint": "You can invite as many students as you want. For each student, you will see a separate contract with terms and interaction history",
-        "action": "Invite Student",
-        "skip": "Try with our bot"
-      },
       "assignWorks": {
-        "title": "Assign Works to Student",
-        "description": "Assign works to a student",
-        "hint": "Select a student and add previously created tasks to the assignment or create new ones. You can mark the lesson as completed immediately. The student will receive a notification in Telegram about the new assignment and the number of remaining lessons.",
-        "action": "Assign Work"
+        "title": "Assign work to students",
+        "hint": "Now you have a ready template that can be assigned to students as work.\n\nIn the Templates section, select the action \"Assign\", copy the link and share it with students. Everyone who opens the link will automatically be assigned work according to this template.\n\nIn the Works section, you can track progress and check completed work for each student.",
+        "action": "Assign work"
+      },
+      "inviteStudents": {
+        "title": "Track progress and check work",
+        "hint": "Sent the link? Great, now when a new student opens the link, you will receive a notification.\n\nIn the Students section, you can keep track of lessons - specify the cost, add and deduct lessons. When paid lessons run out, our bot will gently remind the student about it.\n\nIn the Works section, you can track progress and check completed work for each student.",
+        "action": "Got it"
       },
       "manageBalance": {
-        "title": "Manage Student Balance",
-        "description": "Add lessons to student balance",
-        "hint": "You can add & deduct lessons from the student's balance for transparent accounting. You and students can find all operations in the \"Transactions\" section.",
-        "action": "Top Up Balance"
+        "title": "Student balance management",
+        "hint": "You can add and deduct lessons on the student's balance for transparent accounting. You and students can find all operations in the \"Transactions\" section.",
+        "action": "Top up balance"
       }
     },
     "actions": {
-      "skip": "Skip",
-      "skipOnboarding": "Skip Tutorial",
+      "skip": "Later",
+      "skipOnboarding": "Skip",
       "watchVideo": "Video",
-      "startPlatform": "Start Using Platform",
+      "startPlatform": "Start working",
       "help": "Help"
     },
     "status": {
       "skipped": "Skipped"
     },
-    "intro_video": "Watch a short video with a demo",
-    "intro_setup": "Set your language and theme:",
-    "intro_resize": "It's more convenient for the teacher to work on a computer or tablet. Please maximize the application window to full screen.",
-    "intro_tg": "If you're not comfortable working inside Telegram, you can use the platform through the website",
-    "short_resize": "Maximize the window ",
-    "completed": "Congratulations! You have successfully completed the express training and can now use the platform independently.",
-    "justInCase": "There is an “Instruction” section in the menu — if you forget something, you can refer to it."
+    "intro_video": "Watch a short video",
+    "intro_setup": "Choose your interface language and theme",
+    "intro_resize": "It's more convenient for teachers to work on a computer or tablet. Expand the window - click \"...\" in the header and select \"fullscreen\"",
+    "intro_tg": "If working inside Telegram is unfamiliar to you, you can use the platform through the website",
+    "short_resize": "Expand the window",
+    "completed": "Congratulations! You have successfully completed the express training and can now use the platform independently. ",
+    "justInCase": "There is an \"Instruction\" item in the menu — if you forget something, you can check it."
   },
   "feedback": {
     "title": "How would you rate this work?",
@@ -621,6 +666,9 @@
     },
     "actions": {
       "continue_editing": "Continue editing"
+    },
+    "empty": {
+      "noTasks": "Tasks not added"
     }
   },
   "taskForm": {
@@ -766,7 +814,7 @@
   },
   "invite": {
     "title": "Invite Student",
-    "description": "The student needs to join our Telegram bot. Share this link:",
+    "description": "The student has not yet joined the platform, so we cannot send them a notification. Please invite them to connect to our Telegram bot personally. Share this link with them:",
     "shareTitle": "Join our Telegram Bot",
     "shareText": "Join our Telegram Bot to start learning!"
   },
@@ -823,6 +871,7 @@
       "agreed": "Agreed",
       "rejected": "Rejected",
       "archived": "Archived",
+      "new": "New",
       "contractCreatedShort": "Contract created successfully",
       "contractCreated": "Contract created successfully. Please invite the student to the bot.",
       "errorCreating": "Failed to save contract. Please try again.",
@@ -832,7 +881,7 @@
     },
     "form": {
       "studentUsername": "Student Username",
-      "telegramUsername": "Telegram username or Google email",
+      "telegramUsername": "Telegram username",
       "usernamePlaceholder": "username",
       "pricePerLesson": "Price per one lesson",
       "currency": "Currency",
@@ -848,7 +897,8 @@
       "paidLessons": "Lessons",
       "pricePerLesson": "Price",
       "withTeacher": "Teacher",
-      "withStudent": "Student"
+      "withStudent": "Student",
+      "invite": "Wants to add you as a student"
     },
     "dialog": {
       "existingContract": {
@@ -1041,7 +1091,7 @@
       "clear": "Clear Filter"
     },
     "actions": {
-      "selectAll": "Select all",
+      "selectAll": "All",
       "unselectAll": "Unselect all"
     },
     "empty": {
@@ -1225,5 +1275,37 @@
   },
   "language": {
     "title": "Language"
+  },
+  "shareWork": {
+    "status": {
+      "checkingAuth": "Checking authentication...",
+      "accessing": "Accessing work..."
+    },
+    "error": {
+      "title": "Something went wrong",
+      "description": "The shared link may be invalid or expired. Please check the link and try again.",
+      "noShareKey": "Invalid share link"
+    },
+    "actions": {
+      "goHome": "Go to Home"
+    },
+    "success": {
+      "redirecting": "Redirecting to work..."
+    }
+  },
+  "globalRedirect": {
+    "status": {
+      "loading": "Loading...",
+      "checkingAuth": "Checking authentication...",
+      "accessing": "Accessing..."
+    },
+    "error": {
+      "title": "Something went wrong",
+      "generic": "An error occurred"
+    },
+    "actions": {
+      "goHome": "Go to Home",
+      "showDetails": "Show details"
+    }
   }
 }
