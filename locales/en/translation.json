@@ -519,7 +519,10 @@
       },
       "criteriaDescription": "Criteria description",
       "criteriaDescriptionHint": "Used for AI validation, invisible for students",
-      "allowAIValidation": "Allow AI validation for student"
+      "allowAIValidation": "Allow AI validation for student",
+      "selectCriteria": "Select Criteria",
+      "noExamsFound": "Not found, but you can add your own criteria...",
+      "searchExams": "Search by name"
     },
     "image": {
       "title": "Image",
@@ -545,7 +548,12 @@
       "option": "option",
       "question": "Question",
       "audio": "Audio example",
-      "task": "Tasks text"
+      "task": "Tasks text",
+      "part": {
+        "one": "part",
+        "hintDelete": "To delete- just remove a text",
+        "hintAdd": "To add - press Enter"
+      }
     },
     "help": {
       "title": "The same set of elements is available on the editor toolbar. You can combine different mechanics in one task",
@@ -558,6 +566,14 @@
       "media": {
         "title": "Multimedia"
       }
+    },
+    "table": {
+      "title": "Table",
+      "hint": "A table helps improve formatting and alignment of elements. You can place text and interactive elements in cells, adjust column alignment, and add rows and columns. Avoid adding too many columns — on mobile devices they may not fit on the screen, so use vertical tables instead. Table borders are not visible to students."
+    },
+    "tip": {
+      "title": "Teacher Note",
+      "hint": "Any notes that are visible only to you and not to students. Here you can add, for example, the correct answer or additional criteria for yourself."
     }
   },
   "display": {
@@ -955,7 +971,8 @@
       "next": "Next",
       "skip": "Skip",
       "comment": "Comment",
-      "settings": "Settings"
+      "settings": "Settings",
+      "saveAnswers": "Check and save"
     },
     "settings": {
       "fontSize": {
@@ -1311,7 +1328,12 @@
     },
     "actions": {
       "goHome": "Go to Home",
-      "showDetails": "Show details"
+      "showDetails": "Show details",
+      "hideDetails": "Hide details"
     }
+  },
+  "actions": {
+    "hideDetails": "Hide details",
+    "showDetails": "Show details"
   }
 }
