@@ -544,7 +544,7 @@
       "hint": "A block with multiple answer options where students can select one or more correct answers by checking boxes."
     },
     "defaults": {
-      "answer": "answer",
+      "answer": "Answer",
       "option": "option",
       "question": "Question",
       "audio": "Audio example",
@@ -739,7 +739,20 @@
       "rows": "Rows",
       "columns": "Columns",
       "add": "Add",
-      "cancel": "Cancel"
+      "cancel": "Cancel",
+      "answersTable": "Answers Table",
+      "answersDialog": {
+        "title": "Create Questions & Answers Table",
+        "description": "Create a table with questions and corresponding select dropdown answers.",
+        "questionNumber": "Question {{number}}",
+        "questionPlaceholder": "Enter your question",
+        "answerPlaceholder": "Enter the correct answer",
+        "addQuestion": "Add Question",
+        "createTable": "Create Table",
+        "multipleChoice": "Multiple Choice",
+        "input": "Input",
+        "palette": "Draggable answers"
+      }
     },
     "ai": {
       "title": "AI Assistant",
